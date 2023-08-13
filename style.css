@@ -1,26 +1,46 @@
 body {
     text-align: center;
     align-items: center;
+
     background-color: yellowgreen;
 }
+
+img {
+    image-resolution: 100px;
+    image-center;
+    width: 300px;
+    height: 350px;
+    max-width: 450px;
+    border-radius: 100%;
+    margin: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 
 h1,
 h2 {
     text-align: center;
 }
 
-img {
-    display: block;
-    margin: auto;
-    width: 40%;
-    filter: grayscale(100%);
+ul,
+ol,
+li {
+
+    text-align: center;
+    align-items: center;
+    background-color: rgb(191, 96, 107);
+    list-style: circle;
+    align-self: center;
+    padding: .5em;
+    margin: 0;
+
 }
 
 
 
 
- table,
- th,
+table,
+th,
 td,
 tr {
     text-align: center;
